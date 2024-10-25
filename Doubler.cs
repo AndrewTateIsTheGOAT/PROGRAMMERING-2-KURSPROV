@@ -24,8 +24,8 @@ namespace PROGRAMMERING_2_KURSPROV
 
         public string GetString()
         {
-            string Value = int.Parse(_value);
-            string doublingExecutions = int.Parse(_doublingExecutions);
+            string Value = Convert.ToString(_value);
+            string doublingExecutions = Convert.ToString(_doublingExecutions);
             return _value + " " + _doublingExecutions;
         }
 

@@ -10,8 +10,7 @@ namespace PROGRAMMERING_2_KURSPROV
     {
         public int ExecuteQuadrupling()
         {
-            ExecuteDoubling;
-            return ExecuteDoubling;
+            return Doubler.ExecuteDoubling(0);
 
         }
 
